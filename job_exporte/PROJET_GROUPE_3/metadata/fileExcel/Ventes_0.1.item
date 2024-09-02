@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_vq9ywWYvEe-2NdHEqvXRiA" name="Ventes" id="_vq9ywGYvEe-2NdHEqvXRiA" dataPackage="_vq9ywmYvEe-2NdHEqvXRiA" Server="Localhost 127.0.0.1" FilePath="C:/talend_groupe3/data_groupe3.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Feuil4" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Feuil4:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_vq9ywmYvEe-2NdHEqvXRiA" name="default" dataManager="_vq9ywWYvEe-2NdHEqvXRiA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_vq9yw2YvEe-2NdHEqvXRiA" id="_l3JvUGYvEe-2NdHEqvXRiA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vq9yxGYvEe-2NdHEqvXRiA" label="id_client" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vq9yxWYvEe-2NdHEqvXRiA" label="id_produit" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vq9yxmYvEe-2NdHEqvXRiA" label="date_achat" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vq9yx2YvEe-2NdHEqvXRiA" label="heure_achat" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
