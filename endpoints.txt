@@ -1,0 +1,23 @@
+Les différents endpoints de l'application sont : http://localhost:8080
+	- Produits
+	HTTP Method	        Endpoint	                              Description
+	GET	                      /api/produits	       Récupère la liste de tous les produits.
+	GET	                    /api/produits/{id}	      Récupère un produit spécifique par son ID.
+	POST	                   /api/produits	                         Crée un nouveau produit en se basant sur les données fournies.
+	PUT	             /api/produits/{id}	          Met à jour un produit existant en fonction de l'ID et des données fournies.
+	DELETE	               /api/produits/{id}	                   Supprime un produit spécifique en fonction de l'ID.
+Client
+	HTTP Method         Endpoint	      Description
+	GET	              /api/clients	      Récupère la liste de tous les clients.
+	GET	           /api/clients/{id}	      Récupère un client spécifique par son ID.
+	POST	          /api/clients	      Crée un nouveau client en se basant sur les données fournies.
+	PUT	         /api/clients/{id}	      Met à jour un client existant en fonction de l'ID.
+	DELETE	        /api/clients/{id}	      Supprime un client spécifique par ID.
+
+ Ventes 
+	HTTP Method	Endpoint	                                 Description
+	GET	                    /api/ventes	                                 Récupère la liste de toutes les ventes.
+	GET	        /api/ventes/{idProduit}/{idClient}	    Récupère une vente spécifique par la clé composite		
+	POST	                    /api/ventes	             Crée une nouvelle vente en utilisant les données fournies.
+	PUT	         /api/ventes/{idProduit}/{idClient}	              Met à jour une vente existante 
+	DELETE	       /api/ventes/{idProduit}/{idClient}              Supprime une vente spécifique
