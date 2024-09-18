@@ -21,7 +21,7 @@ Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votr
     - Ouvrez un terminal et accédez au répertoire contenant `setup.sql`.
     - Connectez-vous à PostgreSQL et exécutez le script :  
       ```bash
-      psql -U postgres -f setup.sql
+      psql -U postgres -f script.sql
       ```
     - Vérifiez que les tables ont été créées avec succès :
       ```bash
